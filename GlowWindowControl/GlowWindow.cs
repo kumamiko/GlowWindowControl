@@ -48,7 +48,7 @@ namespace GlowWindowControl
         {
             if (d is GlowWindow window && window.Glow != null)
             {
-                window.Glow?.Enable((bool)e.NewValue);
+                window.Glow.Enable((bool)e.NewValue);
             }
         }
 
