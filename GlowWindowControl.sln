@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29324.140
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlowWindowControl", "GlowWindowControl\GlowWindowControl.csproj", "{F8924CBA-3237-4DDB-9D92-0BD957BC2566}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlowWindowControlDemo", "GlowWindowControlDemo\GlowWindowControlDemo.csproj", "{2925E949-E1AB-480D-9705-6660D93CD981}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8924CBA-3237-4DDB-9D92-0BD957BC2566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8924CBA-3237-4DDB-9D92-0BD957BC2566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8924CBA-3237-4DDB-9D92-0BD957BC2566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8924CBA-3237-4DDB-9D92-0BD957BC2566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2925E949-E1AB-480D-9705-6660D93CD981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2925E949-E1AB-480D-9705-6660D93CD981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2925E949-E1AB-480D-9705-6660D93CD981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2925E949-E1AB-480D-9705-6660D93CD981}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3EEE9C08-3FD6-42F3-BD3F-C0D4E790EBC3}
+	EndGlobalSection
+EndGlobal
