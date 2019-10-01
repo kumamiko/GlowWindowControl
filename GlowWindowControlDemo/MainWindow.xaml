@@ -8,7 +8,7 @@
                xmlns:shell="clr-namespace:System.Windows.Shell;assembly=PresentationFramework"
                ActiveBrush="#bc2f2e"
                InActiveBrush="#999"
-               UseGlow="True"
+               UseGlow="False"
                Background="White"
                BorderThickness="1"
                mc:Ignorable="d"

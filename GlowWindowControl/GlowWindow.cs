@@ -16,7 +16,15 @@ namespace GlowWindowControl
         }
 
         public static readonly DependencyProperty ActiveBrushProperty =
-            DependencyProperty.Register("ActiveBrush", typeof(SolidColorBrush), typeof(GlowWindow), new PropertyMetadata(Brushes.Transparent));
+            DependencyProperty.Register("ActiveBrush", typeof(SolidColorBrush), typeof(GlowWindow), new PropertyMetadata(Brushes.Transparent, new PropertyChangedCallback(OnActiveBrushChanged)));
+
+        private static void OnActiveBrushChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
+        {
+            if (d is GlowWindow window && window.Glow != null)
+            {
+                window.Glow.ActiveColor = (e.NewValue as SolidColorBrush).Color;
+            }
+        }
 
         public SolidColorBrush InActiveBrush
         {
@@ -38,12 +46,9 @@ namespace GlowWindowControl
 
         private static void OnUseGlowChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {
-            if (d is GlowWindow window)
+            if (d is GlowWindow window && window.Glow != null)
             {
-                if (window.Glow != null)
-                {
-                    window.Glow.Enable((bool)e.NewValue);
-                }
+                window.Glow?.Enable((bool)e.NewValue);
             }
         }
 
