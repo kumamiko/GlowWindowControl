@@ -6,7 +6,7 @@
                xmlns:gw="clr-namespace:GlowWindowControl;assembly=GlowWindowControl"
                xmlns:local="clr-namespace:GlowWindowControlDemo"
                xmlns:shell="clr-namespace:System.Windows.Shell;assembly=PresentationFramework"
-               ActiveBrush="Green"
+               ActiveBrush="#bc2f2e"
                InActiveBrush="#999"
                UseGlow="True"
                Background="White"
